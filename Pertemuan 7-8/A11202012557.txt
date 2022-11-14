@@ -1,0 +1,8 @@
+1. Tidak
+karena pada transitions tidak ada transisi dari "Idle" ke "Run", harus transisi ke "Crouch" atau "Walk" terlebih dahulu
+
+2. Tidak
+Karena pada transitions tidak ada transisi "Jumping" ke "Crouch", harus transisi ke "Idle" dahulu sebelum ke "Crouch"
+
+3. Tidak
+Karena State CrouchingWalk hanya memiliki transisi dari "CrouchingWalk" ke "Crouch"
